@@ -1,1 +1,18 @@
-{}
+{
+  "useState snippet": {
+    "prefix": "!us",
+    "description": "useState snippet",
+    "body": [
+      "const [${1:state}, set${1:state}] = useState<any>(${2:initialState});"
+    ]
+  },
+  "useEffect snippet": {
+    "prefix": "!ue",
+    "description": "useEffect snippet",
+    "body": [
+      "React.useEffect(() => {",
+      "  // effect",
+      "}, [${1:dependencies}]);"
+    ]
+  }
+}

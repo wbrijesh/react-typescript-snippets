@@ -1,20 +1,26 @@
 {
-    "name": "react-typescript-snippets",
-    "displayName": "React Typescript Snippets",
-    "description": "React typescript snippets",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "react-tsx-snippets",
+  "displayName": "React Typescript Snippets",
+  "description": "React typescript snippets",
+  "version": "1.0.0",
+  "publisher": "Brijesh",
+  "icon": "react-typescript-snippets-logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbrijesh/react-typescript-snippets"
+  },
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
 }
